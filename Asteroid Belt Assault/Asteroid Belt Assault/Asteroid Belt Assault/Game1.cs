@@ -20,9 +20,9 @@ namespace Asteroid_Belt_Assault
         SpriteBatch spriteBatch;
 
         enum GameStates { TitleScreen, Playing, PlayerDead, GameOver };
-        GameStates gameState = GameStates.Playing;
-        Texture2D titleScreen;
-        Texture2D spriteSheet;
+        GameStates gameState = GameStates.Playing; //GameState.  Title,Play,Dead,GameOver.
+        Texture2D titleScreen; //Title Screen
+        Texture2D spriteSheet; //Sprite Sheets
 
         StarField starField;
         AsteroidManager asteroidManager;
@@ -33,7 +33,7 @@ namespace Asteroid_Belt_Assault
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
-        }
+         }
 
         /// <summary>
         /// Allows the game to perform any initialization it needs to before starting to run.
