@@ -31,7 +31,7 @@ namespace Asteroid_Belt_Assault
             Rectangle screenBounds)
         {
             playerSprite = new Sprite(
-                new Vector2(500, 500),
+                new Vector2(400, 500),  //SPAWN LOCATION.  X/Y value aren't perfect.
                 texture,
                 initialFrame,
                 Vector2.Zero);
